@@ -25,6 +25,9 @@ body{
   gap: 20px;
   padding: 0 35px;
 }
+.nav i{
+  color: rgb(224, 219, 219);
+}
 .nav .text{
   text-align: left;
   width: 50%;
