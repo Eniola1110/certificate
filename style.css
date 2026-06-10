@@ -29,10 +29,21 @@ body{
   text-align: left;
   width: 50%;
   color: rgb(89, 126, 170);
+  font-size: 16px;
 }
-.nav .img{
-  max-width: 100%;
-  height: auto;
+.nav-bottom{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.nav-bottom .icons{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.icon img{
+  width: 15px;
+  border-radius: 5px;
 }
 .banner h2{
   text-align: center;
@@ -73,7 +84,7 @@ body{
   margin-bottom: 40px;
 }
 .h3 h3 {
-  border-top: 1px solid black;
+  border-top: 2px solid black;
   font-size: 15px;
   font-weight: 500;
   padding-top: 10px;
