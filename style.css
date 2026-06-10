@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  font-family: Arial, sans-serif;
+  font-family: 'calibri',Arial, Helvetica, sans-serif;
 }
 .container{
   min-height: 100vh;
@@ -14,15 +14,16 @@ body{
   padding: 20px;
 }
 .certificate {
-  width: 800px;
-  padding: 40px;
+  width: 700px;
   background: rgb(251, 245, 245);
+  padding: 25px 0;
 }
 .nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+  padding: 0 35px;
 }
 .nav .text{
   text-align: left;
@@ -36,27 +37,104 @@ body{
 .banner h2{
   text-align: center;
   color: white;
-  background: linear-gradient(to bottom, blue, yellow);
+  background: #1f5b74;
   margin-top: 20px;
-  padding: 10px;
-  font-size: 1.5rem;
+  padding: 5px 0 7px ;
+  font-size: 20px;
   font-weight: 600;
-  max-width: 100%;
+  width: 100%;
+  border-bottom: 18px solid #c03a54;
 }
 .banner-text{
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  margin:20px 0;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 20px 0 40px 0;
+  padding: 0 35px;
 }
 .banner-text .text1{
-  width: 50%;
+  flex: 1;
 }
-.banner-text img{
-  width: 50%;
+.banner-text .text1 p{
+  line-height: 2;
 }
 .banner-text .img2{
   text-align: left;
-
+  flex: 0 0 150px;
+}
+.banner-text .img2 img{
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+.h3 {
+  padding: 0 35px;
+  margin-bottom: 40px;
+}
+.h3 h3 {
+  border-top: 1px solid black;
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.section{
+  padding: 0 35px;
+  text-align: start;
+  margin-bottom: 40px;
+}
+.section h4{
+  margin-bottom: 12px;
+  font-size: 17px;
+}
+.section p{
+  font-size: 15px;
+  line-height: 1.5;
+  color: rgb(33, 30, 30);
+}
+.section ol{
+  padding: 0 25px;
+}
+.section li{
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgb(33, 30, 30);
+}
+.loss{
+  color: #c03a54;
+}
+.section .contact{
+  font-size: 11px;
+  color: #1f5b74;
+}
+.section .phone{
+  font-size: 12px;
+}
+.examined{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+}
+.examined .examine{
+  border-top: 2px solid black;
+  width: 250px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(33, 30, 30);
+  font-size: 14px;
+}
+footer{
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;
+  padding: 0 35px;
+}
+footer img{
+  width: 80px;
+}
+footer p{
+  color:rgb(33, 30, 30) ;
+  margin-right: 40px;
+  margin-top: 20px;
 }
